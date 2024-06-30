@@ -5,6 +5,7 @@
 - 取得創作者的簡介
   
 ## 程式執行環境設定
+
 1. 引用selenium套件
     - selenium docs - https://selenium-python.readthedocs.io/locating-elements.html
       
