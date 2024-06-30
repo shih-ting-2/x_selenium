@@ -42,30 +42,31 @@ def get_tweet_data(card):
     # print("Responding: " + responding + "\n")
     
     # reply
-    if card.find_element(By.CSS_SELECTOR,'div[data-testid="reply"]').text is not None:
-        reply = card.find_element(By.CSS_SELECTOR,'div[data-testid="reply"]').text
+    if card.find_element(By.CSS_SELECTOR,'button[data-testid="reply"]').text is not None:
+        reply = card.find_element(By.CSS_SELECTOR,'button[data-testid="reply"]').text
         # print("Reply " + reply + "\n")
     else:
         reply = 'None'
         # print("Reply: 0\n")
     
     # retweet 
-    if card.find_element(By.CSS_SELECTOR,'div[data-testid="retweet"]').text is not None:
-        retweets = card.find_element(By.CSS_SELECTOR,'div[data-testid="retweet"]').text
+    if card.find_element(By.CSS_SELECTOR,'button[data-testid="retweet"]').text is not None:
+        retweets = card.find_element(By.CSS_SELECTOR,'button[data-testid="retweet"]').text
         # print("Retweets: " + retweets + "\n")
     else: 
         retweets = 'None'
         # print("Retweets: 0\n")
     
     # likes 
-    if card.find_element(By.CSS_SELECTOR,'div[data-testid="like"]').text is not None:
-        likes = card.find_element(By.CSS_SELECTOR,'div[data-testid="like"]').text
+    if card.find_element(By.CSS_SELECTOR,'button[data-testid="like"]').text is not None:
+        likes = card.find_element(By.CSS_SELECTOR,'button[data-testid="like"]').text
         # print("Likes: " + likes + "\n")
     else:
         likes = 'None'
         # print("Likes: 0\n")
     
     tweet = (username,handle,postDate,responding,reply,retweets,likes)
+    #print(tweet)
     return tweet
 def selenuim(my_usernames, my_account_emails, my_passwords, twitter_list, 
              short_sleep_time, long_sleep_time, desired_data_amount, save_dirPath, fileName, fileHeader):
