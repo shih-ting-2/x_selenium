@@ -10,6 +10,7 @@ from getpass import getpass
 import pandas as pd 
 import time 
 import csv
+from get_tweet_data_funtion import selenuim, get_tweet_data, get_creator_data
 
 # 請提供帳號密碼資訊
 my_account_emails = ['futaba@gmail.com','c311706017@nycu.edu.tw', 'intheclocktown@gmail.com' ]  #帳號/email
