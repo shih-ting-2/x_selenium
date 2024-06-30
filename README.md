@@ -1,11 +1,8 @@
 # 使用selenium套件取得X資料
 
 ## 程式說明
-- 取得創作者發布的貼文 get_tweet_data
-  ![image](https://github.com/shih-ting-2/x_selenium/assets/174265450/aa5b64cf-47c6-4f87-a75d-e2b2d314ceda)
-
-- 取得創作者的簡介get_creator_data
-  ![image](https://github.com/shih-ting-2/x_selenium/assets/174265450/91cfeaf9-ea46-443e-8349-86d20ab81d1b)
+- 取得創作者發布的貼文 
+- 取得創作者的簡介
 
 ## 程式執行環境設定
 
