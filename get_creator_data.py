@@ -154,7 +154,7 @@ def selenuim(my_usernames, my_account_emails, my_passwords, twitter_list,
                 if len(cards) > 0:
                     # only care about the last 15 items 
                     for card in cards:
-                        data = get_tweet_data(card)
+                        data = get_creator_data(card)
                         
                         if data:
                             tweet_id = ''.join(str(item) for item in data)
