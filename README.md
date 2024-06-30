@@ -1,7 +1,7 @@
 # 使用selenium套件取得X資料
 
 ## 程式說明
-- get_tweet_data.py:取得創作者發布的貼文 
+- get_tweet_data.py:取得創作者在近2年發布的貼文 
 - get_creator_data.py:取得創作者的簡介
 
 ## 程式執行環境設定
