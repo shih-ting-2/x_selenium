@@ -1,8 +1,8 @@
 # 使用selenium套件取得X資料
 
-## get_data.py/get_data.ipynb程式說明
-- 取得創作者發布的貼文 
-- 取得創作者的簡介
+## 程式說明
+- get_tweet_data.py:取得創作者發布的貼文 
+- get_creator_data.py:取得創作者的簡介
 
 ## 程式執行環境設定
 
