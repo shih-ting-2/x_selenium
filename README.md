@@ -1,6 +1,6 @@
 # 使用selenium套件取得X資料
 
-## 程式說明
+## get_data.py/get_data.ipynb程式說明
 - 取得創作者發布的貼文 
 - 取得創作者的簡介
 
