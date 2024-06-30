@@ -7,8 +7,8 @@
 ## 程式執行環境設定
 1. 引用selenium套件
     - selenium docs - https://selenium-python.readthedocs.io/locating-elements.html
-2.安裝webdriver，並將exe檔和code放置於同一個目錄中。注意，**伺服器版本要和webdriver執行檔版本一致(例如122.XX.XX)**
-    - webdriver下載處 - https://googlechromelabs.github.io/chrome-for-testing/
+2.安裝webdriver，並將exe檔和code放置於同一個目錄中。注意，**伺服器版本要和webdriver執行檔版本一致(例如122.XX.XX)**  
+    - webdriver下載處 - https://googlechromelabs.github.io/chrome-for-testing/  
 3.記得在程式裡給定帳號、密碼、要爬取的帳號(twitter_list) 
 
 ### 爬取X資料時常見問題
