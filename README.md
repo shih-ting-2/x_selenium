@@ -1,14 +1,14 @@
 # 使用selenium套件取得X資料
 
 ## 程式說明
-- 取得創作者發布的貼文
-- 取得創作者的簡介
+- 取得創作者發布的貼文 get_tweet_data
+- 取得創作者的簡介get_creator_data
   
 ## 程式執行環境設定
 
 1. 引用[selenium套件](https://selenium-python.readthedocs.io/locating-elements.html)
-2.[安裝webdriver](https://googlechromelabs.github.io/chrome-for-testing/ )，並將exe檔和code放置於同一個目錄中。注意，**伺服器版本要和webdriver執行檔版本一致(例如122.XX.XX)**  
-3.記得在程式裡給定帳號、密碼、要爬取的帳號(twitter_list) 
+2. [安裝webdriver](https://googlechromelabs.github.io/chrome-for-testing/ )，並將exe檔和code放置於同一個目錄中。注意，**伺服器版本要和webdriver執行檔版本一致(例如122.XX.XX)**
+3. 記得在程式裡給定帳號、密碼、要爬取的帳號(twitter_list) 
 
 ### 爬取X資料時常見問題
 - 網頁更新之後，程式抓不到輸入框的位置，發生錯誤:
